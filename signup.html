@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Quotes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="./quote.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Authors.html">Authors</a></li>
+                <li class="nav-item"><a class="nav-link" href="./journal.html">Journal</a></li>
+                <li class="nav-item"><a class="nav-link" href="./qotd.html">Quote of the Day</a></li>
+            </ul>
+            <ul class="navbar-nav ms-2">
+                <li class="nav-item"><a class="nav-link" href="./Login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <div class="header">
+            <h2>CREATE ACCOUNT</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" placeholder="username" id="username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exlamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="youremail@gmail.com" id="email"></input>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exlamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" placeholder="password" id="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exlamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="confirm password" id="confirm">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exlamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+<script src="./signup2.js"></script>
+</body>
+</html>

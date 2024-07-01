@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="use-credentials">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulishy&display=swap" type="text/css">
+    <link rel="stylesheet" href="login.css" type="text/css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Quotes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="./quote.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Authors.html">Authors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./journal.html">Journal</a></li>
+                </ul >
+                    <li class="nav-item"><a class="nav-link" href="./signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="form-wrapper">
+        <div class="form-side">
+            
+            <form class="my-form">
+                <div class="form-welcome-row">
+                    <h1>Create your account &#x1F44F;</h1>
+                </div>
+                <div class="socials-row">
+                    <button class="google"><a href="https://www.google.com/" title="Use Google">
+                        <h2>&#x1F47B;Google</h2>
+                    </a></button>
+                    <button class="apple"><a href="https://www.apple.com/" title="Use Apple">
+                        <h2>&#x1F47D;Apple</h2>
+                    </a></button>
+                </div>
+                <div class="divider">
+                    <div class="divider-line"></div> <div class="divider-line"></div>
+                </div>
+                <div class="text-field">
+                    <label for="email">Email:
+                        <input type="email" name="email" id="email" autocomplete="off" placeholder="your Email" required>
+                        
+                    </label>
+                </div>
+                <div class="text-field">
+                    <label for="password">Password:
+                        <input type="password" name="password" id="password" placeholder="Your Password" title="Minimum 6 Characters atleast
+                        1 Alphabet and 1 Number" pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                        
+                    </label>
+                </div>
+                <button type="submit" class="my-form_button">Login</button>
+                <div class="my-form_actions">
+                    <a href="#" title="Reset Password">Reset Password</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>

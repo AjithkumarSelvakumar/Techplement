@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+}
+
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+#quote-of-the-day-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#authors-section h2, #quote-of-the-day-section h2 {
+    color: #fff;
+}
+
+#author-list a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+#author-list a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#author-details-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+textarea.form-control {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+button#submit-comment {
+    background-color: #ff7e5f;
+    border-color: #ff7e5f;
+}
